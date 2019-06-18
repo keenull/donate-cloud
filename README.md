@@ -56,6 +56,10 @@ user-apply：申请服务
 
 use-center：用户服务
 
+sql：存放sql文件
+
+img: 运行效果图
+
 ## 项目依赖环境：
 
 1. Mysql：8.0.15(支持8版本)
