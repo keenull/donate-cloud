@@ -1,6 +1,6 @@
 spring:
   redis:
-    host: 47.107.161.86
+    host: 127.0.0.1
     port: 6379
     password:
     timeout: 10s
@@ -20,7 +20,7 @@ spring:
       maximum-pool-size: 20
       connection-test-query: SELECT 1
   rabbitmq:
-    host: 47.107.161.86
+    host: 127.0.0.1
     port: 5672
     username: donate-dev
     password: donate-dev

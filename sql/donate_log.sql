@@ -1,0 +1,377 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : mysql8
+ Source Server Type    : MySQL
+ Source Server Version : 80015
+ Source Host           : localhost:3306
+ Source Schema         : donate_log
+
+ Target Server Type    : MySQL
+ Target Server Version : 80015
+ File Encoding         : 65001
+
+ Date: 31/05/2019 22:01:59
+*/
+
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+-- Table structure for t_log
+-- ----------------------------
+DROP TABLE IF EXISTS `t_log`;
+CREATE TABLE `t_log`  (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '用户名',
+  `module` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '模块名',
+  `params` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci COMMENT '方法参数',
+  `remark` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci COMMENT '备注',
+  `flag` tinyint(1) NOT NULL COMMENT '是否成功(1成功，0失败)',
+  `createTime` datetime(0) NOT NULL COMMENT '创建时间',
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `username`(`username`) USING BTREE,
+  INDEX `createTime`(`createTime`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 354 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '日志表' ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of t_log
+-- ----------------------------
+INSERT INTO `t_log` VALUES (1, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-22 09:58:12');
+INSERT INTO `t_log` VALUES (2, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-25 18:20:19');
+INSERT INTO `t_log` VALUES (3, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-25 18:25:21');
+INSERT INTO `t_log` VALUES (4, 'aaa', '登陆', NULL, '用户名密码登陆', 1, '2019-04-25 18:27:17');
+INSERT INTO `t_log` VALUES (5, 'aaa', '登陆', NULL, '用户名密码登陆', 1, '2019-04-25 18:28:32');
+INSERT INTO `t_log` VALUES (6, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 13:25:58');
+INSERT INTO `t_log` VALUES (7, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:15:35');
+INSERT INTO `t_log` VALUES (8, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:18:29');
+INSERT INTO `t_log` VALUES (9, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:21:32');
+INSERT INTO `t_log` VALUES (10, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:22:22');
+INSERT INTO `t_log` VALUES (11, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:38:08');
+INSERT INTO `t_log` VALUES (12, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:38:29');
+INSERT INTO `t_log` VALUES (13, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:38:58');
+INSERT INTO `t_log` VALUES (14, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:39:51');
+INSERT INTO `t_log` VALUES (15, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:45:39');
+INSERT INTO `t_log` VALUES (16, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:46:36');
+INSERT INTO `t_log` VALUES (17, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:47:35');
+INSERT INTO `t_log` VALUES (18, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:50:02');
+INSERT INTO `t_log` VALUES (19, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 14:53:57');
+INSERT INTO `t_log` VALUES (20, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 15:01:42');
+INSERT INTO `t_log` VALUES (21, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 15:02:31');
+INSERT INTO `t_log` VALUES (22, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 15:22:16');
+INSERT INTO `t_log` VALUES (23, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 15:26:17');
+INSERT INTO `t_log` VALUES (24, 'aaa', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 18:21:26');
+INSERT INTO `t_log` VALUES (25, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 18:22:54');
+INSERT INTO `t_log` VALUES (26, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-27 20:36:11');
+INSERT INTO `t_log` VALUES (27, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-28 09:03:11');
+INSERT INTO `t_log` VALUES (28, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-28 09:09:14');
+INSERT INTO `t_log` VALUES (29, 'admin', '添加角色', '{\"sysRole\":{}}', '角色code不能为空', 0, '2019-04-28 09:30:17');
+INSERT INTO `t_log` VALUES (30, 'admin', '添加角色', '{\"sysRole\":{}}', '角色code不能为空', 0, '2019-04-28 09:30:32');
+INSERT INTO `t_log` VALUES (31, 'admin', '添加角色', '{\"sysRole\":{}}', '角色code不能为空', 0, '2019-04-28 09:35:03');
+INSERT INTO `t_log` VALUES (32, 'admin', '添加角色', '{\"sysRole\":{}}', '角色code不能为空', 0, '2019-04-28 09:35:09');
+INSERT INTO `t_log` VALUES (33, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-28 09:52:35');
+INSERT INTO `t_log` VALUES (34, 'aaa', '登陆', NULL, '用户名密码登陆', 1, '2019-04-28 20:43:20');
+INSERT INTO `t_log` VALUES (35, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-28 20:49:34');
+INSERT INTO `t_log` VALUES (36, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-30 09:07:13');
+INSERT INTO `t_log` VALUES (37, 'superadmin', '删除权限', '{\"id\":48}', NULL, 1, '2019-04-30 11:46:08');
+INSERT INTO `t_log` VALUES (38, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-30 12:51:30');
+INSERT INTO `t_log` VALUES (39, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-30 12:51:41');
+INSERT INTO `t_log` VALUES (40, 'superadmin', '删除权限', '{\"id\":48}', NULL, 1, '2019-04-30 13:33:38');
+INSERT INTO `t_log` VALUES (41, 'superadmin', '删除角色', '{\"id\":1}', '\r\n### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'= 0\n		 WHERE  roleId = 1\' at line 2\r\n### The error may involve defaultParameterMap\r\n### The error occurred while setting parameters\r\n### SQL: update sys_role_permission    is_deleted = 0    WHERE  roleId = ?\r\n### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'= 0\n		 WHERE  roleId = 1\' at line 2\n; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'= 0\n		 WHERE  roleId = 1\' at line 2', 0, '2019-04-30 14:45:43');
+INSERT INTO `t_log` VALUES (42, 'superadmin', '删除角色', '{\"id\":1}', '\r\n### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'= 0\n		 WHERE  roleId = 1\' at line 2\r\n### The error may involve defaultParameterMap\r\n### The error occurred while setting parameters\r\n### SQL: update sys_role_permission    is_deleted = 0    WHERE  roleId = ?\r\n### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'= 0\n		 WHERE  roleId = 1\' at line 2\n; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'= 0\n		 WHERE  roleId = 1\' at line 2', 0, '2019-04-30 14:46:14');
+INSERT INTO `t_log` VALUES (43, 'superadmin', '删除角色', '{\"id\":1}', NULL, 1, '2019-04-30 14:49:52');
+INSERT INTO `t_log` VALUES (44, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-04-30 18:03:23');
+INSERT INTO `t_log` VALUES (45, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1556075810000,\"enabled\":true,\"headImgUrl\":\"http://www.baidu.com\",\"id\":4,\"mail\":\"1234567@qq.com\",\"nickname\":\"bbb\",\"password\":\"$2a$10$uW2fMvB8uMzuHvJrqg0N8ul1z2XEjovEo0fVJBvzfTVPzhZ87KjUa\",\"phone\":\"18170602345\",\"sex\":1,\"type\":\"APP\",\"updateTime\":1556075810000,\"username\":\"bbb\"}}', NULL, 1, '2019-04-30 20:52:37');
+INSERT INTO `t_log` VALUES (46, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1556075991000,\"enabled\":true,\"headImgUrl\":\"http://www.baidu.com\",\"id\":7,\"mail\":\"1234567@qq.com\",\"nickname\":\"eee\",\"password\":\"$2a$10$0oX/5k12TicNGusibMdgt.DpbTx/gWkFVuIRYxr8aV8tWsG8s4qf2\",\"phone\":\"13110602345\",\"sex\":1,\"type\":\"APP\",\"updateTime\":1556075991000,\"username\":\"eee\"}}', NULL, 1, '2019-04-30 20:53:18');
+INSERT INTO `t_log` VALUES (47, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-01 08:59:57');
+INSERT INTO `t_log` VALUES (48, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1516179421000,\"enabled\":true,\"headImgUrl\":\"\",\"id\":1,\"mail\":\"1234567@qq.com\",\"nickname\":\"测试1\",\"password\":\"$2a$10$3uOoX1ps14CxuotogUoDreW8zXJOZB9XeGdrC/xDV36hhaE8Rn9HO\",\"phone\":\"1234567890\",\"sex\":1,\"type\":\"APP\",\"updateTime\":1516179421000,\"username\":\"admin\"}}', NULL, 1, '2019-05-01 09:00:58');
+INSERT INTO `t_log` VALUES (49, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1556075991000,\"enabled\":true,\"headImgUrl\":\"http://www.baidu.com\",\"id\":7,\"mail\":\"1234567@qq.com\",\"nickname\":\"eee\",\"password\":\"$2a$10$0oX/5k12TicNGusibMdgt.DpbTx/gWkFVuIRYxr8aV8tWsG8s4qf2\",\"phone\":\"13110602312\",\"sex\":1,\"type\":\"APP\",\"updateTime\":1556628798000,\"username\":\"eee\"}}', NULL, 1, '2019-05-01 09:07:23');
+INSERT INTO `t_log` VALUES (50, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1556075991000,\"enabled\":true,\"headImgUrl\":\"http://www.baidu.com\",\"id\":7,\"mail\":\"1234567@qq.com\",\"nickname\":\"eee\",\"password\":\"$2a$10$0oX/5k12TicNGusibMdgt.DpbTx/gWkFVuIRYxr8aV8tWsG8s4qf2\",\"phone\":\"13110602345\",\"sex\":1,\"type\":\"APP\",\"updateTime\":1556672843000,\"username\":\"eee\"}}', NULL, 1, '2019-05-01 09:08:05');
+INSERT INTO `t_log` VALUES (51, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1516365011000,\"enabled\":true,\"id\":2,\"mail\":\"1234567@qq.com\",\"nickname\":\"超级管理员\",\"password\":\"$2a$10$.gLkG0j2kM0stWoOvPBvqu0H9uSD0HUlpErI.PTKyZQkSUZIV2wFq\",\"phone\":\"15170604712\",\"sex\":1,\"type\":\"BACKEND\",\"updateTime\":1516365011000,\"username\":\"superadmin\"}}', NULL, 1, '2019-05-01 09:12:53');
+INSERT INTO `t_log` VALUES (52, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1556075844000,\"enabled\":true,\"headImgUrl\":\"http://www.baidu.com\",\"id\":5,\"mail\":\"1234567@qq.com\",\"nickname\":\"ccc\",\"password\":\"$2a$10$rKr4eQXQFCTmvZ.FA0.Q2Ozk4OEjq/9weKIe69ORBXHxTnBP8WzJK\",\"phone\":\"111111111111\",\"sex\":1,\"type\":\"APP\",\"updateTime\":1556075844000,\"username\":\"ccc\"}}', '\r\n### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column \'phone\' at row 1\r\n### The error may involve defaultParameterMap\r\n### The error occurred while setting parameters\r\n### SQL: update app_user    SET password = ?,             nickname = ?,             headImgUrl = ?,             phone = ?,             mail = ?,             sex = ?,             enabled = ?,             updateTime = ?    where id = ?\r\n### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column \'phone\' at row 1\n; ]; Data truncation: Data too long for column \'phone\' at row 1; nested exception is com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column \'phone\' at row 1', 0, '2019-05-01 09:13:34');
+INSERT INTO `t_log` VALUES (53, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1556075844000,\"enabled\":true,\"headImgUrl\":\"http://www.baidu.com\",\"id\":5,\"mail\":\"1234567@qq.com\",\"nickname\":\"ccc\",\"password\":\"$2a$10$rKr4eQXQFCTmvZ.FA0.Q2Ozk4OEjq/9weKIe69ORBXHxTnBP8WzJK\",\"phone\":\"111111111111\",\"sex\":1,\"type\":\"APP\",\"updateTime\":1556075844000,\"username\":\"ccc\"}}', '\r\n### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column \'phone\' at row 1\r\n### The error may involve defaultParameterMap\r\n### The error occurred while setting parameters\r\n### SQL: update app_user    SET password = ?,             nickname = ?,             headImgUrl = ?,             phone = ?,             mail = ?,             sex = ?,             enabled = ?,             updateTime = ?    where id = ?\r\n### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column \'phone\' at row 1\n; ]; Data truncation: Data too long for column \'phone\' at row 1; nested exception is com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column \'phone\' at row 1', 0, '2019-05-01 09:13:37');
+INSERT INTO `t_log` VALUES (54, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1556075844000,\"enabled\":true,\"headImgUrl\":\"http://www.baidu.com\",\"id\":5,\"mail\":\"1234567@qq.com\",\"nickname\":\"ccc\",\"password\":\"$2a$10$rKr4eQXQFCTmvZ.FA0.Q2Ozk4OEjq/9weKIe69ORBXHxTnBP8WzJK\",\"phone\":\"11111111111\",\"sex\":1,\"type\":\"APP\",\"updateTime\":1556075844000,\"username\":\"ccc\"}}', NULL, 1, '2019-05-01 09:13:45');
+INSERT INTO `t_log` VALUES (55, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-01 20:23:50');
+INSERT INTO `t_log` VALUES (56, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1556075844000,\"enabled\":true,\"headImgUrl\":\"http://www.baidu.com\",\"id\":5,\"mail\":\"1234567@qq.com\",\"nickname\":\"ccc\",\"password\":\"$2a$10$rKr4eQXQFCTmvZ.FA0.Q2Ozk4OEjq/9weKIe69ORBXHxTnBP8WzJK\",\"phone\":\"11111111122\",\"sex\":1,\"type\":\"APP\",\"updateTime\":1556673225000,\"username\":\"ccc\"}}', NULL, 1, '2019-05-01 20:24:45');
+INSERT INTO `t_log` VALUES (57, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1516365011000,\"enabled\":true,\"id\":2,\"mail\":\"1234567@qq.com\",\"nickname\":\"超级管理员\",\"password\":\"$2a$10$.gLkG0j2kM0stWoOvPBvqu0H9uSD0HUlpErI.PTKyZQkSUZIV2wFq\",\"phone\":\"15170604799\",\"sex\":1,\"type\":\"BACKEND\",\"updateTime\":1556673173000,\"username\":\"superadmin\"}}', NULL, 1, '2019-05-01 20:25:04');
+INSERT INTO `t_log` VALUES (58, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1556075991000,\"enabled\":true,\"headImgUrl\":\"http://www.baidu.com\",\"id\":7,\"mail\":\"1234567@qq.com\",\"nickname\":\"eee\",\"password\":\"$2a$10$0oX/5k12TicNGusibMdgt.DpbTx/gWkFVuIRYxr8aV8tWsG8s4qf2\",\"phone\":\"13110602312\",\"sex\":1,\"type\":\"APP\",\"updateTime\":1556672885000,\"username\":\"eee\"}}', NULL, 1, '2019-05-01 20:51:19');
+INSERT INTO `t_log` VALUES (59, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1516365011000,\"enabled\":true,\"id\":2,\"mail\":\"1234567@qq.com\",\"nickname\":\"超级管理员\",\"password\":\"$2a$10$.gLkG0j2kM0stWoOvPBvqu0H9uSD0HUlpErI.PTKyZQkSUZIV2wFq\",\"phone\":\"15170604712\",\"sex\":1,\"type\":\"BACKEND\",\"updateTime\":1556713504000,\"username\":\"superadmin\"}}', NULL, 1, '2019-05-01 20:51:53');
+INSERT INTO `t_log` VALUES (60, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-02 08:47:58');
+INSERT INTO `t_log` VALUES (61, 'superadmin', '修改权限', '{\"sysPermission\":{\"createTime\":1555473100000,\"id\":48,\"name\":\"公告查询2\",\"permission\":\"bulletin:query\",\"updateTime\":1556423503000}}', NULL, 1, '2019-05-02 10:02:34');
+INSERT INTO `t_log` VALUES (62, 'superadmin', '修改权限', '{\"sysPermission\":{\"createTime\":1555473100000,\"id\":48,\"name\":\"公告查询\",\"permission\":\"bulletin:query\",\"updateTime\":1556762554000}}', NULL, 1, '2019-05-02 10:02:41');
+INSERT INTO `t_log` VALUES (63, 'superadmin', '修改权限', '{\"sysPermission\":{\"createTime\":1555473100000,\"id\":48,\"name\":\"公告查询2\",\"permission\":\"bulletin:query\",\"updateTime\":1556762561000}}', NULL, 1, '2019-05-02 11:43:16');
+INSERT INTO `t_log` VALUES (64, 'superadmin', '修改角色', '{\"sysRole\":{\"code\":\"SUPER_ADMIN\",\"createTime\":1516365136000,\"id\":1,\"name\":\"超级管理员2\",\"updateTime\":1516365138000}}', NULL, 1, '2019-05-02 11:51:03');
+INSERT INTO `t_log` VALUES (65, 'superadmin', '修改角色', '{\"sysRole\":{\"code\":\"SUPER_ADMIN\",\"createTime\":1516365136000,\"id\":1,\"name\":\"超级管理员\",\"updateTime\":1556769068000}}', NULL, 1, '2019-05-02 11:51:24');
+INSERT INTO `t_log` VALUES (66, 'superadmin', '删除角色', '{\"id\":1}', NULL, 1, '2019-05-02 11:51:35');
+INSERT INTO `t_log` VALUES (67, 'superadmin', '删除角色', '{\"id\":1}', NULL, 1, '2019-05-02 15:34:42');
+INSERT INTO `t_log` VALUES (68, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-02 17:12:50');
+INSERT INTO `t_log` VALUES (69, 'superadmin', '修改角色', '{\"sysRole\":{\"code\":\"SUPER_ADMIN\",\"createTime\":1516365136000,\"id\":1,\"name\":\"超级管理员2\",\"updateTime\":1556769084000}}', NULL, 1, '2019-05-02 17:13:05');
+INSERT INTO `t_log` VALUES (70, 'superadmin', '修改角色', '{\"sysRole\":{\"code\":\"SUPER_ADMIN\",\"createTime\":1516365136000,\"id\":1,\"name\":\"超级管理员\",\"updateTime\":1556788385000}}', NULL, 1, '2019-05-02 17:13:12');
+INSERT INTO `t_log` VALUES (71, 'superadmin', '删除角色', '{\"id\":1}', NULL, 1, '2019-05-02 17:13:19');
+INSERT INTO `t_log` VALUES (72, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-03 08:58:05');
+INSERT INTO `t_log` VALUES (73, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-03 09:20:31');
+INSERT INTO `t_log` VALUES (74, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-03 10:35:49');
+INSERT INTO `t_log` VALUES (75, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-05 14:35:48');
+INSERT INTO `t_log` VALUES (76, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-05 14:36:16');
+INSERT INTO `t_log` VALUES (77, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-05 14:41:55');
+INSERT INTO `t_log` VALUES (78, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-05 19:49:11');
+INSERT INTO `t_log` VALUES (79, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-06 10:31:05');
+INSERT INTO `t_log` VALUES (80, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-06 10:32:41');
+INSERT INTO `t_log` VALUES (81, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-06 19:34:51');
+INSERT INTO `t_log` VALUES (82, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-07 20:16:58');
+INSERT INTO `t_log` VALUES (83, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-09 09:42:02');
+INSERT INTO `t_log` VALUES (84, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-09 17:57:26');
+INSERT INTO `t_log` VALUES (85, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-09 18:43:31');
+INSERT INTO `t_log` VALUES (86, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-10 22:55:36');
+INSERT INTO `t_log` VALUES (87, 'superadmin', '退出', NULL, NULL, 1, '2019-05-10 23:00:37');
+INSERT INTO `t_log` VALUES (88, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-10 23:02:24');
+INSERT INTO `t_log` VALUES (89, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-10 23:44:49');
+INSERT INTO `t_log` VALUES (90, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-11 10:58:36');
+INSERT INTO `t_log` VALUES (91, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-11 15:06:47');
+INSERT INTO `t_log` VALUES (92, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-11 15:59:01');
+INSERT INTO `t_log` VALUES (93, 'superadmin', '分配权限', '{}', NULL, 0, '2019-05-11 20:19:46');
+INSERT INTO `t_log` VALUES (94, 'superadmin', '分配权限', '{}', NULL, 0, '2019-05-11 20:20:58');
+INSERT INTO `t_log` VALUES (95, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-11 20:25:22');
+INSERT INTO `t_log` VALUES (96, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-11 20:27:30');
+INSERT INTO `t_log` VALUES (97, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-11 22:18:38');
+INSERT INTO `t_log` VALUES (98, 'superadmin', '分配权限', '{}', NULL, 0, '2019-05-11 22:34:05');
+INSERT INTO `t_log` VALUES (99, 'superadmin', '分配权限', '{}', NULL, 0, '2019-05-11 22:37:49');
+INSERT INTO `t_log` VALUES (100, 'superadmin', '分配权限', '{}', NULL, 0, '2019-05-11 22:39:22');
+INSERT INTO `t_log` VALUES (101, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-11 22:41:55');
+INSERT INTO `t_log` VALUES (102, 'superadmin', '修改权限', '{\"sysPermission\":{\"createTime\":1555473100000,\"id\":48,\"name\":\"公告查询\",\"permission\":\"bulletin:query\",\"updateTime\":1556768597000}}', NULL, 1, '2019-05-11 22:53:42');
+INSERT INTO `t_log` VALUES (103, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-11 23:18:42');
+INSERT INTO `t_log` VALUES (104, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-11 23:29:18');
+INSERT INTO `t_log` VALUES (105, 'superadmin', '分配权限', '{}', '\r\n### Error updating database.  Cause: java.sql.SQLException: Field \'is_deleted\' doesn\'t have a default value\r\n### The error may involve com.xshhope.user.dao.RolePermissionDao.saveRolePermission-Inline\r\n### The error occurred while setting parameters\r\n### SQL: insert into sys_role_permission(roleId, permissionId) values(?, ?)\r\n### Cause: java.sql.SQLException: Field \'is_deleted\' doesn\'t have a default value\n; ]; Field \'is_deleted\' doesn\'t have a default value; nested exception is java.sql.SQLException: Field \'is_deleted\' doesn\'t have a default value', 0, '2019-05-11 23:41:06');
+INSERT INTO `t_log` VALUES (106, 'superadmin', '分配权限', '{}', '\r\n### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry \'1-47\' for key \'PRIMARY\'\r\n### The error may involve com.xshhope.user.dao.RolePermissionDao.saveRolePermission-Inline\r\n### The error occurred while setting parameters\r\n### SQL: insert into sys_role_permission(roleId, permissionId) values(?, ?)\r\n### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry \'1-47\' for key \'PRIMARY\'\n; ]; Duplicate entry \'1-47\' for key \'PRIMARY\'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry \'1-47\' for key \'PRIMARY\'', 0, '2019-05-11 23:42:43');
+INSERT INTO `t_log` VALUES (107, 'superadmin', '分配权限', '{}', '\r\n### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry \'1-47\' for key \'PRIMARY\'\r\n### The error may involve com.xshhope.user.dao.RolePermissionDao.saveRolePermission-Inline\r\n### The error occurred while setting parameters\r\n### SQL: insert into sys_role_permission(roleId, permissionId) values(?, ?)\r\n### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry \'1-47\' for key \'PRIMARY\'\n; ]; Duplicate entry \'1-47\' for key \'PRIMARY\'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry \'1-47\' for key \'PRIMARY\'', 0, '2019-05-11 23:42:51');
+INSERT INTO `t_log` VALUES (108, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-11 23:49:40');
+INSERT INTO `t_log` VALUES (109, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-11 23:54:35');
+INSERT INTO `t_log` VALUES (110, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-11 23:57:17');
+INSERT INTO `t_log` VALUES (111, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-12 00:00:41');
+INSERT INTO `t_log` VALUES (112, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-12 00:01:42');
+INSERT INTO `t_log` VALUES (113, 'superadmin', '分配权限', '{}', NULL, 0, '2019-05-12 00:02:16');
+INSERT INTO `t_log` VALUES (114, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 00:07:43');
+INSERT INTO `t_log` VALUES (115, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 00:07:43');
+INSERT INTO `t_log` VALUES (116, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 00:09:59');
+INSERT INTO `t_log` VALUES (117, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 00:11:03');
+INSERT INTO `t_log` VALUES (118, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 00:11:03');
+INSERT INTO `t_log` VALUES (119, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 00:12:02');
+INSERT INTO `t_log` VALUES (120, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-12 09:26:59');
+INSERT INTO `t_log` VALUES (121, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-12 09:30:03');
+INSERT INTO `t_log` VALUES (122, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 09:31:02');
+INSERT INTO `t_log` VALUES (123, 'superadmin', '分配权限', '{}', '', 0, '2019-05-12 09:32:39');
+INSERT INTO `t_log` VALUES (124, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 09:37:29');
+INSERT INTO `t_log` VALUES (125, 'superadmin', '分配权限', '{}', '', 0, '2019-05-12 09:37:43');
+INSERT INTO `t_log` VALUES (126, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 09:38:57');
+INSERT INTO `t_log` VALUES (127, 'superadmin', '分配权限', '{}', '', 0, '2019-05-12 09:43:08');
+INSERT INTO `t_log` VALUES (128, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 09:45:29');
+INSERT INTO `t_log` VALUES (129, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 09:45:44');
+INSERT INTO `t_log` VALUES (130, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 09:46:04');
+INSERT INTO `t_log` VALUES (131, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 09:46:19');
+INSERT INTO `t_log` VALUES (132, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 09:46:34');
+INSERT INTO `t_log` VALUES (133, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-12 10:43:51');
+INSERT INTO `t_log` VALUES (134, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-12 21:00:05');
+INSERT INTO `t_log` VALUES (135, 'superadmin', '添加角色', '{\"sysRole\":{\"code\":\"admin_test\",\"name\":\"admin\"}}', '', 0, '2019-05-12 23:06:25');
+INSERT INTO `t_log` VALUES (136, 'superadmin', '添加角色', '{\"sysRole\":{\"code\":\"admin_test\",\"name\":\"admin_test\"}}', '', 0, '2019-05-12 23:07:53');
+INSERT INTO `t_log` VALUES (137, 'superadmin', '添加角色', '{\"sysRole\":{\"code\":\"admin_test\",\"name\":\"admin_test\"}}', NULL, 1, '2019-05-12 23:10:56');
+INSERT INTO `t_log` VALUES (138, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-12 23:11:13');
+INSERT INTO `t_log` VALUES (139, 'superadmin', '添加权限', '{\"sysPermission\":{\"name\":\"test_add\",\"permission\":\"test_add\"}}', '', 0, '2019-05-12 23:16:13');
+INSERT INTO `t_log` VALUES (140, 'superadmin', '添加权限', '{\"sysPermission\":{\"name\":\"test_add\",\"permission\":\"test_add\"}}', NULL, 1, '2019-05-12 23:17:39');
+INSERT INTO `t_log` VALUES (141, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-13 13:58:45');
+INSERT INTO `t_log` VALUES (142, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 09:23:47');
+INSERT INTO `t_log` VALUES (143, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 09:49:56');
+INSERT INTO `t_log` VALUES (144, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 10:14:09');
+INSERT INTO `t_log` VALUES (145, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 10:14:17');
+INSERT INTO `t_log` VALUES (146, 'superadmin', '分配角色', '{}', '\r\n### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column \'is_deleted\' in \'field list\'\r\n### The error may involve defaultParameterMap\r\n### The error occurred while setting parameters\r\n### SQL: update sys_role_user    set is_deleted = 0    WHERE  userId = ?\r\n### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column \'is_deleted\' in \'field list\'\n; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column \'is_deleted\' in \'field list\'', 0, '2019-05-14 12:54:19');
+INSERT INTO `t_log` VALUES (147, 'superadmin', '分配角色', '{}', '\r\n### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column \'is_deleted\' in \'field list\'\r\n### The error may involve defaultParameterMap\r\n### The error occurred while setting parameters\r\n### SQL: update sys_role_user    set is_deleted = 0    WHERE  userId = ?\r\n### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column \'is_deleted\' in \'field list\'\n; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column \'is_deleted\' in \'field list\'', 0, '2019-05-14 12:56:17');
+INSERT INTO `t_log` VALUES (148, 'superadmin', '分配角色', '{}', '\r\n### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE  userId = 2\' at line 2\r\n### The error may involve defaultParameterMap\r\n### The error occurred while setting parameters\r\n### SQL: update sys_role_user    WHERE  userId = ?\r\n### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE  userId = 2\' at line 2\n; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'WHERE  userId = 2\' at line 2', 0, '2019-05-14 12:58:24');
+INSERT INTO `t_log` VALUES (149, 'superadmin', '分配角色', '{}', NULL, 1, '2019-05-14 13:00:00');
+INSERT INTO `t_log` VALUES (150, 'superadmin', '分配角色', '{}', NULL, 1, '2019-05-14 13:00:22');
+INSERT INTO `t_log` VALUES (151, 'superadmin', '分配角色', '{}', NULL, 1, '2019-05-14 13:01:00');
+INSERT INTO `t_log` VALUES (152, 'superadmin', '分配角色', '{}', NULL, 1, '2019-05-14 13:04:25');
+INSERT INTO `t_log` VALUES (153, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 14:35:21');
+INSERT INTO `t_log` VALUES (154, 'superadmin', '修改权限', '{\"sysPermission\":{\"createTime\":1557674259000,\"id\":49,\"name\":\"test_addd\",\"permission\":\"test_add\",\"updateTime\":1557674259000}}', NULL, 1, '2019-05-14 20:28:33');
+INSERT INTO `t_log` VALUES (155, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1556075974000,\"enabled\":true,\"headImgUrl\":\"http://www.baidu.com\",\"id\":6,\"mail\":\"1234567@qq.com\",\"nickname\":\"ddd\",\"password\":\"$2a$10$FJCFAtjQzFUcRLk8wCdjtOnKFLetIUBhS4CoDQ38Gu.V/pq61TJAi\",\"phone\":\"17110602345\",\"sex\":1,\"type\":\"APP\",\"updateTime\":1556075974000,\"username\":\"ddd\"}}', NULL, 1, '2019-05-14 20:34:56');
+INSERT INTO `t_log` VALUES (156, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 21:22:14');
+INSERT INTO `t_log` VALUES (157, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 21:59:13');
+INSERT INTO `t_log` VALUES (158, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 22:08:26');
+INSERT INTO `t_log` VALUES (159, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 22:18:46');
+INSERT INTO `t_log` VALUES (160, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 22:29:16');
+INSERT INTO `t_log` VALUES (161, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 22:47:56');
+INSERT INTO `t_log` VALUES (162, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 22:51:51');
+INSERT INTO `t_log` VALUES (163, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 22:52:56');
+INSERT INTO `t_log` VALUES (164, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 22:54:42');
+INSERT INTO `t_log` VALUES (165, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 22:59:13');
+INSERT INTO `t_log` VALUES (166, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 23:09:55');
+INSERT INTO `t_log` VALUES (167, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 23:15:18');
+INSERT INTO `t_log` VALUES (168, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 23:21:01');
+INSERT INTO `t_log` VALUES (169, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 23:31:44');
+INSERT INTO `t_log` VALUES (170, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-14 23:44:38');
+INSERT INTO `t_log` VALUES (171, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 13:12:50');
+INSERT INTO `t_log` VALUES (172, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 13:18:55');
+INSERT INTO `t_log` VALUES (173, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 13:20:15');
+INSERT INTO `t_log` VALUES (174, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 13:24:06');
+INSERT INTO `t_log` VALUES (175, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 13:27:18');
+INSERT INTO `t_log` VALUES (176, 'superadmin', '修改用户', '{\"appUser\":{\"createTime\":1557842163000,\"enabled\":true,\"id\":8,\"nickname\":\"111\",\"password\":\"$2a$10$wxCvTK5IYNeziVJYyax58ueoXZO47ReLnkYDuhpN5gh9qWF.Ewy9G\",\"phone\":\"3333344444\",\"sex\":0,\"type\":\"APP\",\"updateTime\":1557842163000,\"username\":\"1111\"}}', NULL, 1, '2019-05-15 13:39:33');
+INSERT INTO `t_log` VALUES (177, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:02:36');
+INSERT INTO `t_log` VALUES (178, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:04:23');
+INSERT INTO `t_log` VALUES (179, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:05:41');
+INSERT INTO `t_log` VALUES (180, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:08:53');
+INSERT INTO `t_log` VALUES (181, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:13:58');
+INSERT INTO `t_log` VALUES (182, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:14:08');
+INSERT INTO `t_log` VALUES (183, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:20:35');
+INSERT INTO `t_log` VALUES (184, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:20:37');
+INSERT INTO `t_log` VALUES (185, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:20:38');
+INSERT INTO `t_log` VALUES (186, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:20:41');
+INSERT INTO `t_log` VALUES (187, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:20:42');
+INSERT INTO `t_log` VALUES (188, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:20:45');
+INSERT INTO `t_log` VALUES (189, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:20:49');
+INSERT INTO `t_log` VALUES (190, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:20:50');
+INSERT INTO `t_log` VALUES (191, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:01');
+INSERT INTO `t_log` VALUES (192, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:00');
+INSERT INTO `t_log` VALUES (193, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:05');
+INSERT INTO `t_log` VALUES (194, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:06');
+INSERT INTO `t_log` VALUES (195, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:06');
+INSERT INTO `t_log` VALUES (196, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:08');
+INSERT INTO `t_log` VALUES (197, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:07');
+INSERT INTO `t_log` VALUES (198, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:08');
+INSERT INTO `t_log` VALUES (199, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:09');
+INSERT INTO `t_log` VALUES (200, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:18');
+INSERT INTO `t_log` VALUES (201, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:19');
+INSERT INTO `t_log` VALUES (202, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:20');
+INSERT INTO `t_log` VALUES (203, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:26');
+INSERT INTO `t_log` VALUES (204, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:24');
+INSERT INTO `t_log` VALUES (205, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:27');
+INSERT INTO `t_log` VALUES (206, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:21:27');
+INSERT INTO `t_log` VALUES (207, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:39:01');
+INSERT INTO `t_log` VALUES (208, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:44:35');
+INSERT INTO `t_log` VALUES (209, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:45:58');
+INSERT INTO `t_log` VALUES (210, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:40');
+INSERT INTO `t_log` VALUES (211, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:40');
+INSERT INTO `t_log` VALUES (212, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:40');
+INSERT INTO `t_log` VALUES (213, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:40');
+INSERT INTO `t_log` VALUES (214, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:40');
+INSERT INTO `t_log` VALUES (215, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:40');
+INSERT INTO `t_log` VALUES (216, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:41');
+INSERT INTO `t_log` VALUES (217, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:42');
+INSERT INTO `t_log` VALUES (218, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:42');
+INSERT INTO `t_log` VALUES (219, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:41');
+INSERT INTO `t_log` VALUES (220, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:42');
+INSERT INTO `t_log` VALUES (221, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:42');
+INSERT INTO `t_log` VALUES (222, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:42');
+INSERT INTO `t_log` VALUES (223, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:44');
+INSERT INTO `t_log` VALUES (224, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:44');
+INSERT INTO `t_log` VALUES (225, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:46');
+INSERT INTO `t_log` VALUES (226, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:45');
+INSERT INTO `t_log` VALUES (227, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:53');
+INSERT INTO `t_log` VALUES (228, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:54');
+INSERT INTO `t_log` VALUES (229, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:55');
+INSERT INTO `t_log` VALUES (230, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:57');
+INSERT INTO `t_log` VALUES (231, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:58');
+INSERT INTO `t_log` VALUES (232, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:48:58');
+INSERT INTO `t_log` VALUES (233, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:00');
+INSERT INTO `t_log` VALUES (234, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:00');
+INSERT INTO `t_log` VALUES (235, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:09');
+INSERT INTO `t_log` VALUES (236, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:09');
+INSERT INTO `t_log` VALUES (237, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:09');
+INSERT INTO `t_log` VALUES (238, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:09');
+INSERT INTO `t_log` VALUES (239, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:09');
+INSERT INTO `t_log` VALUES (240, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:09');
+INSERT INTO `t_log` VALUES (241, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:10');
+INSERT INTO `t_log` VALUES (242, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:09');
+INSERT INTO `t_log` VALUES (243, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:28');
+INSERT INTO `t_log` VALUES (244, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:29');
+INSERT INTO `t_log` VALUES (245, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:29');
+INSERT INTO `t_log` VALUES (246, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:29');
+INSERT INTO `t_log` VALUES (247, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:29');
+INSERT INTO `t_log` VALUES (248, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:30');
+INSERT INTO `t_log` VALUES (249, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:49:30');
+INSERT INTO `t_log` VALUES (250, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 14:59:17');
+INSERT INTO `t_log` VALUES (251, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 15:01:30');
+INSERT INTO `t_log` VALUES (252, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 15:10:56');
+INSERT INTO `t_log` VALUES (253, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 15:12:56');
+INSERT INTO `t_log` VALUES (254, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 15:28:59');
+INSERT INTO `t_log` VALUES (255, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 16:05:37');
+INSERT INTO `t_log` VALUES (256, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 16:07:27');
+INSERT INTO `t_log` VALUES (257, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 16:08:52');
+INSERT INTO `t_log` VALUES (258, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 16:09:29');
+INSERT INTO `t_log` VALUES (259, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 20:07:17');
+INSERT INTO `t_log` VALUES (260, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 22:59:44');
+INSERT INTO `t_log` VALUES (261, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 23:17:50');
+INSERT INTO `t_log` VALUES (262, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 23:27:11');
+INSERT INTO `t_log` VALUES (263, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-15 23:30:53');
+INSERT INTO `t_log` VALUES (264, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-18 17:05:05');
+INSERT INTO `t_log` VALUES (265, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-18 17:25:41');
+INSERT INTO `t_log` VALUES (266, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-18 18:19:01');
+INSERT INTO `t_log` VALUES (267, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-18 18:44:20');
+INSERT INTO `t_log` VALUES (268, 'aaa', '登陆', NULL, '用户名密码登陆', 1, '2019-05-18 18:45:33');
+INSERT INTO `t_log` VALUES (269, 'aaa', '登陆', NULL, '用户名密码登陆', 1, '2019-05-18 18:54:40');
+INSERT INTO `t_log` VALUES (270, 'aaa', '登陆', NULL, '用户名密码登陆', 1, '2019-05-18 18:57:20');
+INSERT INTO `t_log` VALUES (271, 'bbb', '登陆', NULL, '用户名密码登陆', 1, '2019-05-18 19:02:14');
+INSERT INTO `t_log` VALUES (272, 'aaa', '登陆', NULL, '用户名密码登陆', 1, '2019-05-18 19:26:31');
+INSERT INTO `t_log` VALUES (273, 'aaa', '登陆', NULL, '用户名密码登陆', 1, '2019-05-18 19:27:04');
+INSERT INTO `t_log` VALUES (274, 'aaa', '登陆', NULL, '用户名密码登陆', 1, '2019-05-18 20:25:22');
+INSERT INTO `t_log` VALUES (275, 'aaa', '登陆', NULL, '用户名密码登陆', 1, '2019-05-19 22:08:04');
+INSERT INTO `t_log` VALUES (276, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-19 22:23:17');
+INSERT INTO `t_log` VALUES (277, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-19 22:23:25');
+INSERT INTO `t_log` VALUES (278, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-20 09:51:39');
+INSERT INTO `t_log` VALUES (279, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-20 18:20:20');
+INSERT INTO `t_log` VALUES (280, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-23 11:40:10');
+INSERT INTO `t_log` VALUES (281, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-23 14:04:25');
+INSERT INTO `t_log` VALUES (282, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-24 18:36:22');
+INSERT INTO `t_log` VALUES (283, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-24 18:37:03');
+INSERT INTO `t_log` VALUES (284, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-24 18:57:45');
+INSERT INTO `t_log` VALUES (285, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-24 21:47:30');
+INSERT INTO `t_log` VALUES (286, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-25 09:52:08');
+INSERT INTO `t_log` VALUES (287, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-25 09:53:12');
+INSERT INTO `t_log` VALUES (288, 'aaa', '登陆', NULL, '用户名密码登陆', 1, '2019-05-25 12:49:33');
+INSERT INTO `t_log` VALUES (289, 'bbb', '登陆', NULL, '用户名密码登陆', 1, '2019-05-25 14:18:29');
+INSERT INTO `t_log` VALUES (290, 'bbb', '登陆', NULL, '用户名密码登陆', 1, '2019-05-25 14:19:26');
+INSERT INTO `t_log` VALUES (291, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-25 21:22:29');
+INSERT INTO `t_log` VALUES (292, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-26 10:13:09');
+INSERT INTO `t_log` VALUES (293, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-26 10:28:48');
+INSERT INTO `t_log` VALUES (294, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-26 13:19:44');
+INSERT INTO `t_log` VALUES (295, 'ccc', '登陆', NULL, '用户名密码登陆', 1, '2019-05-26 18:41:07');
+INSERT INTO `t_log` VALUES (296, 'bbb', '登陆', NULL, '用户名密码登陆', 1, '2019-05-26 18:45:38');
+INSERT INTO `t_log` VALUES (297, 'ccc', '登陆', NULL, '用户名密码登陆', 1, '2019-05-26 19:09:00');
+INSERT INTO `t_log` VALUES (298, 'ccc', '登陆', NULL, '用户名密码登陆', 1, '2019-05-26 19:55:45');
+INSERT INTO `t_log` VALUES (299, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-26 20:08:40');
+INSERT INTO `t_log` VALUES (300, 'ddd', '登陆', NULL, '用户名密码登陆', 1, '2019-05-26 20:15:46');
+INSERT INTO `t_log` VALUES (301, 'ddd', '登陆', NULL, '用户名密码登陆', 1, '2019-05-26 20:21:44');
+INSERT INTO `t_log` VALUES (302, 'ddd', '登陆', NULL, '用户名密码登陆', 1, '2019-05-26 21:11:57');
+INSERT INTO `t_log` VALUES (303, 'bbb', '登陆', NULL, '用户名密码登陆', 1, '2019-05-26 21:13:20');
+INSERT INTO `t_log` VALUES (304, 'ccc', '登陆', NULL, '用户名密码登陆', 1, '2019-05-27 01:07:46');
+INSERT INTO `t_log` VALUES (305, 'ccc', '登陆', NULL, '用户名密码登陆', 1, '2019-05-27 09:07:18');
+INSERT INTO `t_log` VALUES (306, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-27 10:14:29');
+INSERT INTO `t_log` VALUES (307, 'ccc', '登陆', NULL, '用户名密码登陆', 1, '2019-05-27 11:38:32');
+INSERT INTO `t_log` VALUES (308, 'ccc', '登陆', NULL, '用户名密码登陆', 1, '2019-05-27 14:00:45');
+INSERT INTO `t_log` VALUES (309, 'ccc', '登陆', NULL, '用户名密码登陆', 1, '2019-05-27 16:28:26');
+INSERT INTO `t_log` VALUES (310, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-27 21:29:50');
+INSERT INTO `t_log` VALUES (311, 'ddd', '登陆', NULL, '用户名密码登陆', 1, '2019-05-27 21:40:35');
+INSERT INTO `t_log` VALUES (312, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-28 01:16:31');
+INSERT INTO `t_log` VALUES (313, 'ddd', '登陆', NULL, '用户名密码登陆', 1, '2019-05-28 09:23:55');
+INSERT INTO `t_log` VALUES (314, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-28 14:21:04');
+INSERT INTO `t_log` VALUES (315, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-28 14:26:50');
+INSERT INTO `t_log` VALUES (316, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-28 16:51:25');
+INSERT INTO `t_log` VALUES (317, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-28 20:33:36');
+INSERT INTO `t_log` VALUES (318, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-28 21:59:31');
+INSERT INTO `t_log` VALUES (319, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-29 09:55:14');
+INSERT INTO `t_log` VALUES (320, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-29 10:41:12');
+INSERT INTO `t_log` VALUES (321, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-29 10:48:58');
+INSERT INTO `t_log` VALUES (322, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-29 10:49:06');
+INSERT INTO `t_log` VALUES (323, 'xshpe', '登陆', NULL, '用户名密码登陆', 1, '2019-05-29 11:10:19');
+INSERT INTO `t_log` VALUES (324, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-29 15:32:45');
+INSERT INTO `t_log` VALUES (325, 'ddd', '登陆', NULL, '用户名密码登陆', 1, '2019-05-29 16:12:14');
+INSERT INTO `t_log` VALUES (326, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-29 16:20:40');
+INSERT INTO `t_log` VALUES (327, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-29 16:22:04');
+INSERT INTO `t_log` VALUES (328, 'superadmin', '分配权限', '{}', NULL, 1, '2019-05-29 16:22:12');
+INSERT INTO `t_log` VALUES (329, 'superadmin', '修改权限', '{\"sysPermission\":{\"createTime\":1557674259000,\"id\":49,\"name\":\"test_addd2\",\"permission\":\"test_add\",\"updateTime\":1557836915000}}', NULL, 1, '2019-05-29 16:22:22');
+INSERT INTO `t_log` VALUES (330, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-30 09:49:07');
+INSERT INTO `t_log` VALUES (331, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-30 09:56:25');
+INSERT INTO `t_log` VALUES (332, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-30 19:48:50');
+INSERT INTO `t_log` VALUES (333, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-30 20:23:30');
+INSERT INTO `t_log` VALUES (334, 'superadmin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-30 20:27:49');
+INSERT INTO `t_log` VALUES (335, 'ddd', '登陆', NULL, '用户名密码登陆', 1, '2019-05-30 20:52:03');
+INSERT INTO `t_log` VALUES (336, 'ddd', '登陆', NULL, '用户名密码登陆', 1, '2019-05-30 22:49:09');
+INSERT INTO `t_log` VALUES (337, 'admin', '登陆', NULL, '用户名密码登陆', 1, '2019-05-30 23:32:04');
+INSERT INTO `t_log` VALUES (338, 'admin', '登陆', NULL

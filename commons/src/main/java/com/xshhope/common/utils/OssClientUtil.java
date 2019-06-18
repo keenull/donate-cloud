@@ -30,12 +30,12 @@ public class OssClientUtil {
     /**
      * accessKey
      */
-    private String accessKeyId = "LTAIIc9BMhCCBA4L";
+    private String accessKeyId = "accessKey";
 
     /**
      * accessKey secret
      */
-    private String accessKeySecret = "x37aPodK8biABRWfxiT0ywmLp0PNeM";
+    private String accessKeySecret = "accessKey secret";
 
     /**
      * 空间

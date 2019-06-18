@@ -14,7 +14,7 @@ spring:
       maximum-pool-size: 20
       connection-test-query: SELECT 1
   rabbitmq:
-    host: 47.107.161.86
+    host: 127.0.0.1
     port: 5672
     username: donate-dev
     password: donate-dev
@@ -43,6 +43,3 @@ security:
     resource:
       user-info-uri: http://127.0.0.1:8080/api-o/user-me
       prefer-token-info: false
-elasticsearch:
-  clusterName: elasticsearch
-  clusterNodes: 127.0.0.1:9300
