@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: monitor-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+    registry-fetch-interval-seconds: 5
+  instance:
+    lease-expiration-duration-in-seconds: 15
+    lease-renewal-interval-in-seconds: 5
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
+    home-page-url-path: /
+    ip-address: 127.0.0.1
+    hostname: ${eureka.instance.ip-address}
+server:
+  port: 9001
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

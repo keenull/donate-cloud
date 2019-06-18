@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/model/dto/AppealApplyDTO.java" description="AppealApplyDTO" line="26" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1d5bcac-f5f4-4870-a183-9c851186fec5" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/api-model/target/" />
+    <ignored path="$PROJECT_DIR$/manage-backend/target/" />
+    <ignored path="$PROJECT_DIR$/log-center/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/config-center/target/" />
+    <ignored path="$PROJECT_DIR$/monitor-center/target/" />
+    <ignored path="$PROJECT_DIR$/gateway-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/commons/target/" />
+    <ignored path="$PROJECT_DIR$/log-starter/target/" />
+    <ignored path="$PROJECT_DIR$/oauth-center/target/" />
+    <ignored path="$PROJECT_DIR$/user-center/target/" />
+    <ignored path="$PROJECT_DIR$/register-center/target/" />
+    <ignored path="$PROJECT_DIR$/user-apply/target/" />
+    <ignored path="$PROJECT_DIR$/bulletin-center/target/" />
+    <ignored path="$PROJECT_DIR$/pay-center/target/" />
+    <ignored path="$PROJECT_DIR$/order-center/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="donate-cloud" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="UML Class" />
+        <option value="UML Activity" />
+        <option value="UML Sequence" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/latestDontate</find>
+      <find>/getDontateByUser</find>
+      <find>RabbitmqConfig</find>
+      <find>47.10</find>
+      <find>/users/cu</find>
+      <find>/users/curren</find>
+      <find>users/cu</find>
+      <find>sys/lo</find>
+      <find>AuthorizationServerConfigurerAdapter</find>
+      <find>users/find</find>
+      <find>findData</find>
+      <find>5</find>
+      <find>permissions/find</find>
+      <find>logout</find>
+      <find>/remove_token</find>
+      <find>anon/internal</find>
+      <find>user-me</find>
+      <find>users/curr</find>
+      <find>oauth/token</find>
+      <find>视频</find>
+      <find>2018</find>
+      <find>register</find>
+      <find>两种</find>
+      <find>users/m</find>
+      <find>users/me</find>
+      <find>spring-data-jpa</find>
+      <find>rabbitmq</find>
+      <find>findByld</find>
+      <find>192.168.137.17</find>
+      <find>192.168.137.1</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>?serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8&amp;useSSL=false</replace>
+      <replace>@author xshhope</replace>
+      <replace>?useUnicode=true&amp;characterEncoding=utf-8&amp;allowMultiQueries=true&amp;useSSL=false</replace>
+      <replace>com.xshhope.apply.model.dto</replace>
+      <replace />
+      <replace>47.107.161.86:3306</replace>
+      <replace>prefer-ip-address: false</replace>
+      <replace>prefer-ip-address: true</replace>
+      <replace>password: lwtt8888</replace>
+      <replace>47.107.161.86</replace>
+      <replace>172.20.10.4</replace>
+      <replace>172.20.10.3</replace>
+      <replace>172.20.10.3:</replace>
+      <replace>192.168.43.213</replace>
+      <replace>192.168.43.15</replace>
+      <replace>url: jdbc:mysql://192.168.43.15</replace>
+      <replace>password: 123456</replace>
+      <replace>192.168.137.128</replace>
+      <replace>192.168.137.1</replace>
+      <replace>com.xshhope.pay.model.dto.RecordListDTO</replace>
+      <replace>com.xshhope.pay.model.dto.DonateListDTO</replace>
+      <replace>192.168.137.17</replace>
+      <replace>127.0.0.1</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\IdeaProjects\graduation\donate-cloud</dir>
+      <dir>D:\IdeaProjects\graduation\donate-cloud\oauth-center</dir>
+      <dir>D:\IdeaProjects\graduation\donate-cloud\user-center</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="pay_center_0525" />
+      </map>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="F:/dtstack/grpc-java" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/user-center/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/config-center/src/main/resources/configs/dev/oauth-center.yml" />
+        <option value="$PROJECT_DIR$/oauth-center/src/main/java/com/xshhope/oauth/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/oauth-center/src/main/java/com/xshhope/oauth/config/PasswordEncoderConfig.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/repository/ApplyRepository.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/service/ApplyService.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/pay-center/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/log-center/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/monitor-center/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/api-model/src/main/java/com/xshhope/model/user/constants/CredentialType.java" />
+        <option value="$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/model/dto/PayVO.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/model/dto/AppealVO.java" />
+        <option value="$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/service/impl/RecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/service/impl/PayServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/feign/LogClient.java" />
+        <option value="$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/controller/PayController.java" />
+        <option value="$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/facade/PayFacade.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/feign/LogClient.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/consumer/ApplyUpdateConsumer.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/facade/ApplyFacade.java" />
+        <option value="$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/facade/RecordFacade.java" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/xshhope/common/utils/Pager.java" />
+        <option value="$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/repository/RecordRepository.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/model/dto/PersonApplyDTO.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/service/impl/ApplyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/controller/UserApplyController.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/facade/AppealFacade.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/service/AppealService.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/model/dto/AppealDetailVO.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/service/impl/AppealServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/repository/AppealRepository.java" />
+        <option value="$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/controller/AppealController.java" />
+        <option value="$PROJECT_DIR$/gateway-zuul/src/main/java/com/xshhope/gateaway/feign/Oauth2Client.java" />
+        <option value="$PROJECT_DIR$/gateway-zuul/src/main/java/com/xshhope/gateaway/controller/TokenController.java" />
+        <option value="$PROJECT_DIR$/gateway-zuul/src/main/java/com/xshhope/gateaway/config/CrossDomainConfig.java" />
+        <option value="$PROJECT_DIR$/oauth-center/src/main/java/com/xshhope/oauth/service/impl/UserDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/oauth-center/src/main/java/com/xshhope/oauth/service/impl/RedisClientDetailsService.java" />
+        <option value="$PROJECT_DIR$/oauth-center/src/main/java/com/xshhope/oauth/service/impl/RedisAuthorizationCodeServices.java" />
+        <option value="$PROJECT_DIR$/oauth-center/src/main/java/com/xshhope/oauth/service/impl/RandomAuthenticationKeyGenerator.java" />
+        <option value="$PROJECT_DIR$/oauth-center/src/main/java/com/xshhope/oauth/config/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/oauth-center/src/main/java/com/xshhope/oauth/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/oauth-center/src/main/java/com/xshhope/oauth/controller/OAuth2Controller.java" />
+        <option value="$PROJECT_DIR$/log-starter/src/main/java/com/xshhope/log/autoconfigure/LogAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/api-model/src/main/java/com/xshhope/model/log/Log.java" />
+        <option value="$PROJECT_DIR$/log-starter/aaa.puml" />
+        <option value="$PROJECT_DIR$/user-center/user-center.puml" />
+        <option value="$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/controller/RecordController.java" />
+        <option value="$PROJECT_DIR$/log-starter/Log.puml" />
+        <option value="$PROJECT_DIR$/log-center/src/main/java/com/xshhope/log/controller/LogController.java" />
+        <option value="$PROJECT_DIR$/user-center/src/main/java/com/xshhope/user/controller/SysPermissionController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/javatools/apache-maven-3.8" />
+        <option name="userSettingsFile" value="D:\javatools\apache-maven-3.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-78" />
+    <option name="y" value="145" />
+    <option name="width" value="1296" />
+    <option name="height" value="908" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Memory issuesJava</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="donate-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="donate-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="SearchEverywhereHistoryKey" value="RecordListDTO&#9;PSI&#9;JAVA://com.xshhope.pay.model.dto.RecordListDTO&#10;AppealDTO&#9;FILE&#9;file://D:/IdeaProjects/graduation/donate-cloud/user-apply/src/main/java/com/xshhope/apply/model/dto/AppealDTO.java&#10;SysPermissionServiceImpl&#9;PSI&#9;JAVA://com.xshhope.user.service.impl.SysPermissionServiceImpl" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xshhope.apply.feign" />
+      <recent name="com.xshhope.pay.feign" />
+      <recent name="com.xshhope.pay.job" />
+      <recent name="com.xshhope.apply.config" />
+      <recent name="com.xshhope.apply.task" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\graduation\donate-cloud\pay-center\src\main\resources" />
+      <recent name="D:\IdeaProjects\graduation\donate-cloud\api-model\src\main\java\com\xshhope\model\apply" />
+      <recent name="D:\IdeaProjects\graduation\donate-cloud\pay-center\src\main\java\com\xshhope\pay" />
+      <recent name="D:\IdeaProjects\graduation\donate-cloud\pay-center\src\main\java\com\xshhope\pay\facade" />
+      <recent name="D:\IdeaProjects\graduation\donate-cloud\pay-center\src\main\java\com\xshhope\pay\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.21467689" />
+  </component>
+  <component name="RunManager" selected="JUnit.com.xshhope.apply.model.dto in user-apply">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="PayCenterApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xshhope.pay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="pay-center" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xshhope.pay" />
+      <option name="MAIN_CLASS_NAME" value="com.xshhope.pay.PayCenterApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UserApplyApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xshhope.apply.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="user-apply" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xshhope.apply" />
+      <option name="MAIN_CLASS_NAME" value="com.xshhope.apply.UserApplyApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="com.xshhope.apply.model.dto in user-apply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xshhope.apply.model.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="user-apply" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xshhope.apply.model.dto" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="ConfigCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xshhope.config.ConfigCenterApplication" />
+      <module name="config-center" />
+      <envs />
+    </configuration>
+    <configuration name="GatewayZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xshhope.gateaway.GatewayZuulApplication" />
+      <module name="gateway-zuul" />
+      <envs />
+    </configuration>
+    <configuration name="LogCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xshhope.log.LogCenterApplication" />
+      <module name="log-center" />
+      <envs />
+    </configuration>
+    <configuration name="MonitorCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xshhope.monitor.MonitorCenterApplication" />
+      <module name="monitor-center" />
+      <envs />
+    </configuration>
+    <configuration name="OauthCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xshhope.oauth.OauthCenterApplication" />
+      <module name="oauth-center" />
+      <envs />
+    </configuration>
+    <configuration name="PayCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xshhope.pay.PayCenterApplication" />
+      <module name="pay-center" />
+      <envs />
+    </configuration>
+    <configuration name="RegisterCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xshhope.register.RegisterCenterApplication" />
+      <module name="register-center" />
+      <envs />
+    </configuration>
+    <configuration name="UserApplyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xshhope.apply.UserApplyApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="user-apply" />
+      <envs />
+    </configuration>
+    <configuration name="UserCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xshhope.user.UserCenterApplication" />
+      <module name="user-center" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="12">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.LogCenterApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ConfigCenterApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.MonitorCenterApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.GatewayZuulApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.OauthCenterApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.RegisterCenterApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.UserCenterApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.UserApplyApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.PayCenterApplication" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.PayCenterApplicationTests.contextLoads" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.UserApplyApplicationTests.contextLoads" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.com.xshhope.apply.model.dto in user-apply" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.com.xshhope.apply.model.dto in user-apply" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserApplyApplicationTests.contextLoads" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PayCenterApplicationTests.contextLoads" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserApplyApplicationTests.contextLoads" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PayCenterApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1d5bcac-f5f4-4870-a183-9c851186fec5" name="Default" comment="" />
+      <created>1555726885268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555726885268</updated>
+      <workItem from="1555726887357" duration="3754000" />
+      <workItem from="1555747554180" duration="1612000" />
+      <workItem from="1555749183949" duration="5356000" />
+      <workItem from="1555805538662" duration="15919000" />
+      <workItem from="1555848924069" duration="207000" />
+      <workItem from="1555854251431" duration="3441000" />
+      <workItem from="1555858745960" duration="153000" />
+      <workItem from="1555894651706" duration="171000" />
+      <workItem from="1555894889084" duration="1416000" />
+      <workItem from="1555899565676" duration="12726000" />
+      <workItem from="1555930369476" duration="4850000" />
+      <workItem from="1555935463006" duration="4698000" />
+      <workItem from="1555941092755" duration="2185000" />
+      <workItem from="1555980405021" duration="112000" />
+      <workItem from="1555980583295" duration="6441000" />
+      <workItem from="1555987872864" duration="9066000" />
+      <workItem from="1556009591605" duration="9324000" />
+      <workItem from="1556025577948" duration="111000" />
+      <workItem from="1556025862761" duration="5025000" />
+      <workItem from="1556064575776" duration="4302000" />
+      <workItem from="1556069603909" duration="14274000" />
+      <workItem from="1556094648358" duration="14705000" />
+      <workItem from="1556159670217" duration="14565000" />
+      <workItem from="1556241080986" duration="14904000" />
+      <workItem from="1556323334037" duration="11241000" />
+      <workItem from="1556341351120" duration="3634000" />
+      <workItem from="1556345178780" duration="20199000" />
+      <workItem from="1556411552318" duration="15684000" />
+      <workItem from="1556430794620" duration="538000" />
+      <workItem from="1556431457531" duration="18170000" />
+      <workItem from="1556584845190" duration="21294000" />
+      <workItem from="1556671300908" duration="11390000" />
+      <workItem from="1556756754360" duration="126000" />
+      <workItem from="1556756937135" duration="31843000" />
+      <workItem from="1556842636274" duration="9661000" />
+      <workItem from="1556876492481" duration="9414000" />
+      <workItem from="1556893521066" duration="675000" />
+      <workItem from="1556928878434" duration="232000" />
+      <workItem from="1556929158663" duration="26983000" />
+      <workItem from="1557017925085" duration="7551000" />
+      <workItem from="1557037253282" duration="5117000" />
+      <workItem from="1557102757053" duration="4971000" />
+      <workItem from="1557189422999" duration="6930000" />
+      <workItem from="1557281347464" duration="4164000" />
+      <workItem from="1557302521501" duration="3527000" />
+      <workItem from="1557325740830" duration="472000" />
+      <workItem from="1557362763349" duration="28998000" />
+      <workItem from="1557498660886" duration="211000" />
+      <workItem from="1557540815170" duration="24157000" />
+      <workItem from="1557579050231" duration="12115000" />
+      <workItem from="1557623233573" duration="21311000" />
+      <workItem from="1557708777431" duration="11435000" />
+      <workItem from="1557748011115" duration="6882000" />
+      <workItem from="1557794032236" duration="120000" />
+      <workItem from="1557794204261" duration="27790000" />
+      <workItem from="1557882176863" duration="10095000" />
+      <workItem from="1557967678921" duration="122000" />
+      <workItem from="1558167348576" duration="7395000" />
+      <workItem from="1558273140961" duration="1678000" />
+      <workItem from="1558314851446" duration="15636000" />
+      <workItem from="1558400842330" duration="2357000" />
+      <workItem from="1558405976261" duration="1401000" />
+      <workItem from="1558484530609" duration="1324000" />
+      <workItem from="1558496775565" duration="3497000" />
+      <workItem from="1558522879141" duration="3688000" />
+      <workItem from="1558570873039" duration="12287000" />
+      <workItem from="1558659065365" duration="17049000" />
+      <workItem from="1558746518025" duration="16538000" />
+      <workItem from="1558766602762" duration="9005000" />
+      <workItem from="1558776378567" duration="17826000" />
+      <workItem from="1558830201282" duration="34338000" />
+      <workItem from="1558917172734" duration="30293000" />
+      <workItem from="1559005486978" duration="28465000" />
+      <workItem from="1559092632020" duration="16378000" />
+      <workItem from="1559178004570" duration="21747000" />
+      <workItem from="1559262898124" duration="19719000" />
+      <workItem from="1559316191158" duration="1049000" />
+      <workItem from="1559347225297" duration="23896000" />
+      <workItem from="1559425997794" duration="10104000" />
+      <workItem from="1559453890447" duration="1684000" />
+      <workItem from="1559633671216" duration="5462000" />
+      <workItem from="1559729004980" duration="1268000" />
+      <workItem from="1559730416148" duration="814000" />
+      <workItem from="1559731277750" duration="534000" />
+      <workItem from="1559731916725" duration="918000" />
+      <workItem from="1559732948414" duration="10035000" />
+      <workItem from="1559783101936" duration="16108000" />
+      <workItem from="1559990139805" duration="1007000" />
+      <workItem from="1560051667372" duration="4757000" />
+      <workItem from="1560077773922" duration="2331000" />
+      <workItem from="1560132671185" duration="2123000" />
+      <workItem from="1560843416151" duration="687000" />
+      <workItem from="1560844565861" duration="37000" />
+    </task>
+    <task id="LOCAL-00140" summary="首页完成/进行">
+      <created>1558835192086</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1558835192087</updated>
+    </task>
+    <task id="LOCAL-00141" summary="jpa问题">
+      <created>1558838339823</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1558838339823</updated>
+    </task>
+    <task id="LOCAL-00142" summary="定时任务">
+      <created>1558849722188</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1558849722188</updated>
+    </task>
+    <task id="LOCAL-00143" summary="获取支付状态">
+      <created>1558849760660</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1558849760660</updated>
+    </task>
+    <task id="LOCAL-00144" summary="获取捐赠已完成">
+      <created>1558849831345</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1558849831345</updated>
+    </task>
+    <task id="LOCAL-00145" summary="文件上传临时路径">
+      <created>1558877990910</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1558877990910</updated>
+    </task>
+    <task id="LOCAL-00146" summary="更新条件修改">
+      <created>1558878025459</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1558878025459</updated>
+    </task>
+    <task id="LOCAL-00147" summary="apply添加时appeal不应该设置name 和 id">
+      <created>1558888051214</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1558888051214</updated>
+    </task>
+    <task id="LOCAL-00148" summary="邮箱通知修改">
+      <created>1558888079260</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1558888079260</updated>
+    </task>
+    <task id="LOCAL-00149" summary="序列化">
+      <created>1558889095854</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1558889095854</updated>
+    </task>
+    <task id="LOCAL-00150" summary="文件上传配置更改；pay-center文件配置删除">
+      <created>1558889353114</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1558889353114</updated>
+    </task>
+    <task id="LOCAL-00151" summary="payFacade逻辑修改">
+      <created>1558918643732</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1558918643734</updated>
+    </task>
+    <task id="LOCAL-00152" summary="邮件发送 修改">
+      <created>1558947709660</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1558947709660</updated>
+    </task>
+    <task id="LOCAL-00153" summary="commons修改">
+      <created>1558957668671</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1558957668671</updated>
+    </task>
+    <task id="LOCAL-00154" summary="LogModule删除，对应LogAnnotation和LogController修改">
+      <created>1558958298904</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1558958298905</updated>
+    </task>
+    <task id="LOCAL-00155" summary="api-model修改">
+      <created>1558958371456</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1558958371456</updated>
+    </task>
+    <task id="LOCAL-00156" summary="黑名单删除">
+      <created>1558958546368</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1558958546368</updated>
+    </task>
+    <task id="LOCAL-00157" summary="es删除">
+      <created>1558958680359</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1558958680359</updated>
+    </task>
+    <task id="LOCAL-00158" summary="LogMqClient修改">
+      <created>1558958771494</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1558958771495</updated>
+    </task>
+    <task id="LOCAL-00159" summary="oauth-center">
+      <created>1558959777454</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1558959777454</updated>
+    </task>
+    <task id="LOCAL-00160" summary="pay-center">
+      <created>1558960017921</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1558960017921</updated>
+    </task>
+    <task id="LOCAL-00161" summary="User-apply">
+      <created>1558960239505</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1558960239505</updated>
+    </task>
+    <task id="LOCAL-00162" summary="user-center">
+      <created>1558960552189</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1558960552190</updated>
+    </task>
+    <task id="LOCAL-00163" summary="图表生成">
+      <created>1559005727585</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1559005727586</updated>
+    </task>
+    <task id="LOCAL-00164" summary="新增的类">
+      <created>1559050796566</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1559050796566</updated>
+    </task>
+    <task id="LOCAL-00165" summary="Appeal方面图形">
+      <created>1559050854570</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1559050854570</updated>
+    </task>
+    <task id="LOCAL-00166" summary="Pay方面图形">
+      <created>1559050935777</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1559050935777</updated>
+    </task>
+    <task id="LOCAL-00167" summary="配置更改为192.168.137.17">
+      <created>1559093070452</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1559093070453</updated>
+    </task>
+    <task id="LOCAL-00168" summary="删除无用">
+      <created>1559093555738</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1559093555738</updated>
+    </task>
+    <task id="LOCAL-00169" summary="调整为jwt">
+      <created>1559093585225</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1559093585225</updated>
+    </task>
+    <task id="LOCAL-00170" summary="修改首页显示">
+      <created>1559097081525</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1559097081525</updated>
+    </task>
+    <task id="LOCAL-00171" summary="删除多余登录">
+      <created>1559102013150</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1559102013150</updated>
+    </task>
+    <task id="LOCAL-00172" summary="修改启动方式">
+      <created>1559116215787</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1559116215788</updated>
+    </task>
+    <task id="LOCAL-00173" summary="date">
+      <created>1559201323638</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1559201323638</updated>
+    </task>
+    <task id="LOCAL-00174" summary="ClientController">
+      <created>1559202489766</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1559202489766</updated>
+    </task>
+    <task id="LOCAL-00175" summary="title设置">
+      <created>1559223704590</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1559223704590</updated>
+    </task>
+    <task id="LOCAL-00176" summary="fix">
+      <created>1559227939800</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1559227939800</updated>
+    </task>
+    <task id="LOCAL-00177" summary="日志保存">
+      <created>1559271893761</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1559271893762</updated>
+    </task>
+    <task id="LOCAL-00178" summary="更加gmtCreated排序">
+      <created>1559312511868</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1559312511868</updated>
+    </task>
+    <task id="LOCAL-00179" summary="添加捐赠状态">
+      <created>1559372635993</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1559372635993</updated>
+    </task>
+    <task id="LOCAL-00180" summary="首页轮播">
+      <created>1559389070222</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1559389070222</updated>
+    </task>
+    <task id="LOCAL-00181" summary="fix">
+      <created>1559430344294</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1559430344295</updated>
+    </task>
+    <task id="LOCAL-00182" summary="1">
+      <created>1559436691886</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1559436691886</updated>
+    </task>
+    <task id="LOCAL-00183" summary="1">
+      <created>1559436741571</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1559436741572</updated>
+    </task>
+    <task id="LOCAL-00184" summary="3">
+      <created>1559436875892</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1559436875892</updated>
+    </task>
+    <task id="LOCAL-00185" summary="Revert &quot;1&quot;&#10;&#10;This reverts commit 4a062a4">
+      <created>1559451735748</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1559451735748</updated>
+    </task>
+    <task id="LOCAL-00186" summary="Revert &quot;1&quot;&#10;&#10;This reverts commit a2ca92f">
+      <created>1559451753252</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1559451753252</updated>
+    </task>
+    <task id="LOCAL-00187" summary="Revert &quot;3&quot;&#10;&#10;This reverts commit d5ec763">
+      <created>1559451768585</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1559451768585</updated>
+    </task>
+    <task id="LOCAL-00188" summary="ip切换为127.0.0.1">
+      <created>1560058163839</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1560058163842</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PayCenterApplicationTests_contextLoads - 2019.05.26 at 21h 36m 25s.xml">
+      <configuration name="PayCenterApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserApplyApplicationTests_contextLoads - 2019.05.27 at 00h 33m 17s.xml">
+      <configuration name="UserApplyApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserApplyApplicationTests_contextLoads - 2019.05.27 at 22h 56m 48s.xml">
+      <configuration name="UserApplyApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="849804000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42263278" sideWeight="0.5107411" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4803695" sideWeight="0.50858366" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17006437" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3807599" sideWeight="0.4908147" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41454965" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1276824" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15015975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3960739" sideWeight="0.4868211" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4754846" sideWeight="0.48925886" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49884528" sideWeight="0.49201277" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39794755" sideWeight="0.48766094" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36602053" sideWeight="0.49194413" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37392703" sideWeight="0.4891775" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32794458" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22800429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21298283" sideWeight="0.5059423" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29215896" sideWeight="0.51082253" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19290704" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327252" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3945268" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42263278" sideWeight="0.5107411" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4803695" sideWeight="0.50858366" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17006437" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3807599" sideWeight="0.4908147" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19290704" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41454965" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1276824" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15015975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3960739" sideWeight="0.4868211" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327252" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39566705" sideWeight="0.48925886" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49884528" sideWeight="0.49201277" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39794755" sideWeight="0.48766094" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36602053" sideWeight="0.49194413" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32794458" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32403433" sideWeight="0.4891775" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22837184" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21298283" sideWeight="0.5059423" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3945268" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29215896" sideWeight="0.51082253" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="user-center" />
+    <MESSAGE value="图表生成" />
+    <MESSAGE value="新增的类" />
+    <MESSAGE value="Appeal方面图形" />
+    <MESSAGE value="Pay方面图形" />
+    <MESSAGE value="配置更改为192.168.137.17" />
+    <MESSAGE value="删除无用" />
+    <MESSAGE value="调整为jwt" />
+    <MESSAGE value="修改首页显示" />
+    <MESSAGE value="删除多余登录" />
+    <MESSAGE value="修改启动方式" />
+    <MESSAGE value="date" />
+    <MESSAGE value="ClientController" />
+    <MESSAGE value="title设置" />
+    <MESSAGE value="日志保存" />
+    <MESSAGE value="更加gmtCreated排序" />
+    <MESSAGE value="添加捐赠状态" />
+    <MESSAGE value="首页轮播" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="1" />
+    <MESSAGE value="3" />
+    <MESSAGE value="Revert &quot;1&quot;&#10;&#10;This reverts commit 4a062a4" />
+    <MESSAGE value="Revert &quot;1&quot;&#10;&#10;This reverts commit a2ca92f" />
+    <MESSAGE value="Revert &quot;3&quot;&#10;&#10;This reverts commit d5ec763" />
+    <MESSAGE value="ip切换为127.0.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ip切换为127.0.0.1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint suspend="NONE" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="355" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/repository/org/projectlombok/lombok/1.16.22/lombok-1.16.22.jar!/lombok/Builder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/lombok.Data">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>lombok.Data</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.annotation.Annotation</node>
+            <node x="" y="">lombok.Data</node>
+            <node x="" y="">java.lang.annotation.Target</node>
+            <node x="" y="">java.lang.annotation.Retention</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="94.0" y="145.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.xshhope.model.log.Log">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.xshhope.model.log.Log</OriginalElement>
+          <nodes>
+            <node x="" y="">lombok.Builder</node>
+            <node x="" y="">com.xshhope.model.log.Log</node>
+            <node x="" y="">lombok.Data</node>
+            <node x="" y="">lombok.AllArgsConstructor</node>
+            <node x="" y="">java.io.Serializable</node>
+            <node x="" y="">lombok.NoArgsConstructor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="417.0" y="165.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-model/src/main/java/com/xshhope/model/log/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SpringLocalModels/module=log-starter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>module=log-starter</OriginalElement>
+          <nodes>
+            <node x="" y="">module=log-starter</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="55.0" y="12.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-log-starter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-log-starter</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-log-starter</node>
+            <node x="" y="">mdl-api-model</node>
+            <node x="" y="">mdl-commons</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="118.0" y="103.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-donate-cloud">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-donate-cloud</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-donate-cloud</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="105.0" y="18.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.puml" />
+    <entry file="file://$PROJECT_DIR$/log-starter/log-starter.puml" />
+    <entry file="file://$PROJECT_DIR$/log-starter/src/main/java/com/xshhope/log/autoconfigure/LogAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/user-center.puml" />
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/xshhope/user/service/AppUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-starter/aaa.puml" />
+    <entry file="uml://JAVA/com.xshhope.log.autoconfigure.LogAop">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.xshhope.log.autoconfigure.LogAop</OriginalElement>
+          <nodes>
+            <node x="" y="">com.xshhope.log.dao.LogDao</node>
+            <node x="" y="">com.xshhope.log.service.impl.LogServiceImpl</node>
+            <node x="" y="">com.xshhope.log.service.LogService</node>
+            <node x="" y="">com.xshhope.log.autoconfigure.LogMqClient</node>
+            <node x="" y="">com.xshhope.log.autoconfigure.LogAop</node>
+            <node x="" y="">com.xshhope.log.consumer.LogConsumer</node>
+            <node x="" y="">com.xshhope.log.controller.LogController</node>
+            <node x="" y="">com.xshhope.log.autoconfigure.LogAutoConfiguration</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="588.0" y="390.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-starter/src/main/java/com/xshhope/log/autoconfigure/LogAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-model/src/main/java/com/xshhope/model/user/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.xshhope.user.controller.SysPermissionController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.xshhope.user.controller.SysPermissionController</OriginalElement>
+          <nodes>
+            <node x="" y="">com.xshhope.user.dao.UserRoleDao</node>
+            <node x="" y="">com.xshhope.user.controller.UserController</node>
+            <node x="" y="">com.xshhope.user.controller.SysPermissionController</node>
+            <node x="" y="">com.xshhope.model.user.SysRole</node>
+            <node x="" y="">com.xshhope.user.controller.SysRoleController</node>
+            <node x="" y="">com.xshhope.user.dao.SysPermissionDao</node>
+            <node x="" y="">com.xshhope.user.dao.SysRoleDao</node>
+            <node x="" y="">com.xshhope.model.user.LoginAppUser</node>
+            <node x="" y="">com.xshhope.user.dao.QualificateDao</node>
+            <node x="" y="">com.xshhope.user.dao.RolePermissionDao</node>
+            <node x="" y="">com.xshhope.user.dao.AppUserDao</node>
+            <node x="" y="">com.xshhope.user.dao.UserCredentialsDao</node>
+            <node x="" y="">com.xshhope.model.user.SysPermission</node>
+            <node x="" y="">com.xshhope.model.user.AppUser</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="1793.0" y="499.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-model/src/main/java/com/xshhope/model/oauth/SystemClientInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/controller/AppealController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="282" column="9" lean-forward="true" selection-start-line="282" selection-start-column="9" selection-end-line="282" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-model/src/main/java/com/xshhope/model/apply/AppealPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-model/src/main/java/com/xshhope/model/apply/ApplyPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/controller/PayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/facade/PayFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="187" column="31" lean-forward="false" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/repository/PayRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-model/src/main/java/com/xshhope/model/pay/PayPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/controller/RecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="95" column="57" lean-forward="true" selection-start-line="95" selection-start-column="57" selection-end-line="95" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/service/RecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/facade/RecordFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="56" column="62" lean-forward="false" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/service/impl/RecordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="113" column="66" lean-forward="false" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-center/src/main/java/com/xshhope/pay/repository/RecordRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-model/src/main/java/com/xshhope/model/pay/RecordPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-starter/Log.puml" />
+    <entry file="file://$PROJECT_DIR$/log-center/src/main/java/com/xshhope/log/service/LogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-center/src/main/java/com/xshhope/log/controller/LogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log-center/src/main/java/com/xshhope/log/service/impl/LogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/springframework/security/spring-security-core/5.0.7.RELEASE/spring-security-core-5.0.7.RELEASE.jar!/org/springframework/security/core/context/SecurityContextImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/springframework/security/spring-security-core/5.0.7.RELEASE/spring-security-core-5.0.7.RELEASE.jar!/org/springframework/security/core/context/SecurityContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/springframework/security/spring-security-core/5.0.7.RELEASE/spring-security-core-5.0.7.RELEASE.jar!/org/springframework/security/core/context/SecurityContextHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.xshhope.oauth.controller.OAuth2Controller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.xshhope.oauth.controller.OAuth2Controller</OriginalElement>
+          <nodes>
+            <node x="0.0" y="420.0">org.springframework.security.core.context.SecurityContext</node>
+            <node x="0.0" y="0.0">org.springframework.security.core.context.SecurityContextHolder</node>
+            <node x="0.0" y="262.0">com.xshhope.oauth.controller.OAuth2Controller</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="243.0" y="99.0" />
+          <SelectedNodes>
+            <node>com.xshhope.oauth.controller.OAuth2Controller</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth-center/src/main/java/com/xshhope/oauth/controller/OAuth2Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="30" column="84" lean-forward="false" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/xshhope/user/service/impl/SysRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/xshhope/user/controller/SysRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="114" column="55" lean-forward="false" selection-start-line="114" selection-start-column="46" selection-end-line="114" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/xshhope/user/service/impl/SysPermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/xshhope/user/controller/SysPermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/service/impl/AppealServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="227" column="32" lean-forward="false" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/facade/ApplyFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-apply/src/main/java/com/xshhope/apply/controller/UserApplyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="82" column="59" lean-forward="false" selection-start-line="82" selection-start-column="59" selection-end-line="82" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/resources/mybatis-mappers/AppUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/xshhope/user/dao/AppUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/xshhope/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="62" column="46" lean-forward="false" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/xshhope/user/service/impl/AppUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>api-model</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

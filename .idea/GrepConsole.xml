@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GrepConsole">
+    <option name="pinnedGrepConsolesState">
+      <PinnedGrepConsolesState>
+        <option name="map">
+          <map>
+            <entry>
+              <key>
+                <RunConfigurationRef>
+                  <option name="icon" value="SpringBoot.png" />
+                  <option name="name" value="GatewayZuulApplication" />
+                </RunConfigurationRef>
+              </key>
+              <value>
+                <Pins />
+              </value>
+            </entry>
+            <entry>
+              <key>
+                <RunConfigurationRef>
+                  <option name="icon" value="SpringBoot.png" />
+                  <option name="name" value="UserCenterApplication" />
+                </RunConfigurationRef>
+              </key>
+              <value>
+                <Pins />
+              </value>
+            </entry>
+            <entry>
+              <key>
+                <RunConfigurationRef>
+                  <option name="icon" value="SpringBoot.png" />
+                  <option name="name" value="UserApplyApplication" />
+                </RunConfigurationRef>
+              </key>
+              <value>
+                <Pins />
+              </value>
+            </entry>
+            <entry>
+              <key>
+                <RunConfigurationRef>
+                  <option name="icon" value="SpringBoot.png" />
+                  <option name="name" value="PayCenterApplication" />
+                </RunConfigurationRef>
+              </key>
+              <value>
+                <Pins />
+              </value>
+            </entry>
+          </map>
+        </option>
+      </PinnedGrepConsolesState>
+    </option>
+  </component>
+</project>

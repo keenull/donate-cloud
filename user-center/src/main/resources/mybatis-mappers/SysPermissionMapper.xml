@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xshhope.user.dao.SysPermissionDao">
+
+	<sql id="where">
+		<where>
+			<if test="permission != null and permission != ''">
+				<bind name="_permission" value="'%' + permission + '%'"/>
+				and t.permission like #{_permission}
+			</if>
+			<if test="name != null and name != ''">
+				<bind name="_name" value="'%' + name + '%'"/>
+				and t.name like #{_name}
+			</if>
+				and t.is_deleted = 1
+		</where>
+	</sql>
+	<select id="count" resultType="int">
+		select count(*) from sys_permission t
+		<include refid="where" />
+	</select>
+
+	<select id="findData" resultType="SysPermission">
+		select * from sys_permission t
+		<include refid="where" />
+		order by t.id desc
+		<if test="page != null and page >= 0 and size != null and size > 0">
+			limit #{page}, #{size}
+		</if>
+	</select>
+</mapper>

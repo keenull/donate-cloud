@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pay-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/register-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-apply" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-center" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,72 @@
+logging:
+  level:
+    root: info
+    com.xshhope: debug
+  file: logs/${spring.application.name}.log
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/donate_apply?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: 123456
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 20
+      connection-test-query: SELECT 1
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: none
+  mail:
+    host: smtp.163.com
+    port: 25
+    username: xshhope@163.com
+    password: 1597984XXX
+  rabbitmq:
+    host: 47.107.161.86
+    port: 5672
+    username: donate-dev
+    password: donate-dev
+    virtual-host: /
+  redis:
+    host: 47.107.161.86
+    port: 6379
+    password:
+    timeout: 10s
+    lettuce:
+      pool:
+        min-idle: 0
+        max-idle: 8
+        max-active: 8
+        max-wait: -1ms
+  mvc:
+    servlet:
+      load-on-startup: 1
+  aop:
+    proxy-target-class: true
+  zipkin:
+    base-url: http://localhost:9411
+    enabled: true
+    sender:
+      type: web
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://127.0.0.1:8080/api-o/user-me
+      prefer-token-info: false
+ribbon:
+  eager-load:
+    enabled: true
+    clients: user-center
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000

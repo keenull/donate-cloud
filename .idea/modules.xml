@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-model/api-model.iml" filepath="$PROJECT_DIR$/api-model/api-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-center/config-center.iml" filepath="$PROJECT_DIR$/config-center/config-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/donate-cloud.iml" filepath="$PROJECT_DIR$/donate-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-zuul/gateway-zuul.iml" filepath="$PROJECT_DIR$/gateway-zuul/gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/log-center/log-center.iml" filepath="$PROJECT_DIR$/log-center/log-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/log-starter/log-starter.iml" filepath="$PROJECT_DIR$/log-starter/log-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor-center/monitor-center.iml" filepath="$PROJECT_DIR$/monitor-center/monitor-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-center/oauth-center.iml" filepath="$PROJECT_DIR$/oauth-center/oauth-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pay-center/pay-center.iml" filepath="$PROJECT_DIR$/pay-center/pay-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/register-center/register-center.iml" filepath="$PROJECT_DIR$/register-center/register-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-apply/user-apply.iml" filepath="$PROJECT_DIR$/user-apply/user-apply.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-center/user-center.iml" filepath="$PROJECT_DIR$/user-center/user-center.iml" />
+    </modules>
+  </component>
+</project>

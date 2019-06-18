@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: config-center
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:/configs/{profile}
+#          searchLocations: file:/d:/configs/{profile}
+        git:
+          uri: https://gitee.com/zhang.w/cloud-service-configs.git
+          default-label: master
+          force-pull: true
+          searchPaths: '{profile}'
+server:
+  port: 0
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+    registry-fetch-interval-seconds: 5
+  instance:
+    lease-expiration-duration-in-seconds: 15
+    lease-renewal-interval-in-seconds: 5
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${random.int}
+    home-page-url-path: /
+    ip-address: 127.0.0.1
+    hostname: ${eureka.instance.ip-address}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+logging:
+  level:
+    root: info
+  file: logs/${spring.application.name}.log

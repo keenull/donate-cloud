@@ -1,0 +1,398 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>捐赠收款支付系统</title>
+    <style type="text/css">
+        .ReadMsgBody { width: 100%; background-color: #ffffff; }
+        .ExternalClass { width: 100%; background-color: #ffffff; }
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+        html { width: 100%; }
+        body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; margin: 0; padding: 0; }
+        table { border-spacing: 0; border-collapse: collapse; table-layout: fixed; margin:0 auto; }
+        table table table { table-layout: auto; }
+        img { display: block !important; }
+        table td { border-collapse: collapse; }
+        .yshortcuts a { border-bottom: none !important; }
+        a { color: #ff646a; text-decoration: none;}
+        .textbutton a { font-family: 'open sans', arial, sans-serif !important; color: #ffffff !important; }
+        .footer-link a { color: #7f8c8d !important; }
+    </style>
+</head>
+
+<body>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+
+    <!-- header -->
+
+    <tr>
+        <td align="center">
+            <table bgcolor="#f8f8f8" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr align="center" valign="top">
+                    <td>
+                        <table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td width="208" align="center" valign="top" bgcolor="#607e9d">
+                                    <table width="158" border="0" align="center" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td height="50"></td>
+                                        </tr>
+                                        <!-- logo -->
+                                        <tr>
+                                            <td align="center" style="line-height:0px;">
+
+                                            </td>
+                                        </tr>
+                                        <!-- end logo -->
+
+                                        <tr>
+                                            <td height="40"></td>
+                                        </tr>
+
+                                        <!-- Compane Name -->
+                                        <tr>
+                                            <td style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; color:#FFFFFF; line-height:26px; font-weight: bold;">爱心捐赠支付中心</td>
+                                        </tr>
+                                        <!-- end Compane Name -->
+
+                                        <tr>
+                                            <td height="5"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td height="25"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td width="392" align="center" valign="top">
+                                    <table width="342" border="0" align="center" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td height="50"></td>
+                                        </tr>
+
+                                        <!-- title -->
+                                        <tr>
+                                            <td align="right" style="font-family: 'Open Sans', Arial, sans-serif; font-size:38px; color:#3b3b3b; line-height:26px;">支付通知</td>
+                                        </tr>
+                                        <!-- end title -->
+
+                                        <tr>
+                                            <td height="25"></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right">
+                                                <table align="right" width="50" border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td bgcolor="#ff646a" height="3" style="line-height:0px; font-size:0px;">&nbsp;</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15"></td>
+                                        </tr>
+                                        <!-- Compane Name -->
+                                        <tr>
+                                            <td align="right" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; color:#3b3b3b; line-height:26px; font-weight: bold;"></td>
+                                        </tr>
+                                        <!-- end Compane Name -->
+
+                                        <tr>
+                                            <td height="5"></td>
+                                        </tr>
+
+                                        <!-- address -->
+                                        <tr>
+                                            <td align="right" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#7f8c8d; line-height:26px;">
+
+                                                <br />
+
+                                                <br />
+
+                                                <span style="color:#3b3b3b"> <strong></strong>
+													</span>
+                                            </td>
+                                        </tr>
+                                        <!-- end address -->
+
+                                        <tr>
+                                            <td height="25"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <!-- end header -->
+
+    <!-- title -->
+
+    <tr>
+        <td align="center">
+            <table align="center" width="600" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center" style="border-bottom:3px solid #bcbcbc;">
+                        <table align="center" width="550" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="20"></td>
+                            </tr>
+
+                            <!-- header -->
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td width="100%" align="left" valign="top" style="font-size:13px; color:#3b3b3b; line-height:26px; text-transform:uppercase;">
+                                                尊敬的管理员:<span th:text="${title}"></span>:
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%" align="left" valign="top" style="font-size:13px; color:#3b3b3b; line-height:26px; text-transform:uppercase;">
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您好！&nbsp;&nbsp;项目&nbsp;&nbsp;<span th:text="${title}"></span>&nbsp;&nbsp;有新的捐赠订单：
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- end header -->
+                            <tr>
+                                <td height="10"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <!-- end title -->
+
+    <!-- list -->
+    <tr>
+        <td align="center">
+            <table width="600" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center" style="border-bottom:1px solid #ecf0f1;">
+                        <table width="550" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="15"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td width="250" align="left" valign="top" style="font-family: 'Open Sans', Arial, sans-serif; font-size:14px; color:#3b3b3b; line-height:26px;  font-weight: bold;">用户昵称</td>
+                                            <td width="300" align="left" valign="top" style="font-family: 'Open Sans', Arial, sans-serif; font-size:14px; color:#3b3b3b; line-height:26px;  font-weight: bold;"><span th:text="${nickName}"></span></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="5"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="5"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- end list -->
+
+    <!-- list -->
+    <tr>
+        <td align="center">
+            <table width="600" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center" style="border-bottom:1px solid #ecf0f1;">
+                        <table width="550" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="15"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td width="250" align="left" valign="top" style="font-family: 'Open Sans', Arial, sans-serif; font-size:14px; color:#3b3b3b; line-height:26px;  font-weight: bold;">捐赠金额</td>
+                                            <td width="300" align="left" valign="top" style="font-family: 'Open Sans', Arial, sans-serif; font-size:14px; color:#3b3b3b; line-height:26px;  font-weight: bold;"><span th:text="${money}"></span></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="5"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="5"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- end list -->
+
+    <!-- list -->
+    <tr>
+        <td align="center">
+            <table width="600" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center" style="border-bottom:1px solid #ecf0f1;">
+                        <table width="550" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="15"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td width="250" align="left" valign="top" style="font-family: 'Open Sans', Arial, sans-serif; font-size:14px; color:#3b3b3b; line-height:26px;  font-weight: bold;">留言</td>
+                                            <td width="300" align="left" valign="top" style="font-family: 'Open Sans', Arial, sans-serif; font-size:14px; color:#3b3b3b; line-height:26px;  font-weight: bold;"><span th:text="${comment}"></span></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="5"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="5"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- end list -->
+
+
+    <!-- list -->
+    <tr>
+        <td align="center">
+            <table width="600" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center" style="border-bottom:1px solid #ecf0f1;">
+                        <table width="550" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="15"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td width="250" align="left" valign="top" style="font-family: 'Open Sans', Arial, sans-serif; font-size:14px; color:#3b3b3b; line-height:26px;  font-weight: bold;">通知邮箱</td>
+                                            <td width="300" align="left" valign="top" style="font-family: 'Open Sans', Arial, sans-serif; font-size:14px; color:#3b3b3b; line-height:26px;  font-weight: bold;"><span th:text="${email}"></span></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="5"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="5"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- end list -->
+
+    <!-- list -->
+    <tr>
+        <td align="center">
+            <table width="600" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center" style="border-bottom:1px solid #ecf0f1;">
+                        <table width="550" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="15"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td width="250" align="left" valign="top" style="font-family: 'Open Sans', Arial, sans-serif; font-size:14px; color:#3b3b3b; line-height:26px;  font-weight: bold;">支付时间</td>
+                                            <td width="300" align="left" valign="top" style="font-family: 'Open Sans', Arial, sans-serif; font-size:14px; color:#3b3b3b; line-height:26px;  font-weight: bold;"><span th:text="${gmtCreated}"></span></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="5"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="5"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- end list -->
+
+    <!-- total -->
+    <tr>
+        <td align="center">
+            <table align="center" width="600" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center" height="0" style="border-bottom:3px solid #3b3b3b;"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- end total -->
+
+    <!-- footer -->
+    <tr>
+        <td align="center">
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td height="15" align="center" valign="top" style="border-bottom:10px solid #ecf0f1;">
+                        <table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td height="25"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top">
+                                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td width="13" align="center" style="line-height:0px;">
+                                                <img style="display:block;font-size:0px; border:0px; line-height:0px;" src="https://i.loli.net/2018/07/18/5b4f3a79dc324.png" width="14" height="11" alt="img" />
+                                            </td>
+                                            <td width="10"></td>
+                                            <td class="footer-link" width="120" align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#3b3b3b; line-height:26px;">xshhope@163.com</td>
+                                            <td class="footer-link" width="300" align="right" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#3b3b3b; line-height:26px;">
+                                                <a href="http://127.0.0.1:8001/#/home ">爱心捐赠平台</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="25"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- end footer -->
+
+</table>
+</body>
+</html>

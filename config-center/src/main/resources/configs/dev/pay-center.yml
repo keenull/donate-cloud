@@ -1,0 +1,107 @@
+logging:
+  level:
+    root: info
+    com.xshhope: debug
+  file: logs/${spring.application.name}.log
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/donate_pay?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: 123456
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 20
+      connection-test-query: SELECT 1
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: none
+  mail:
+    host: smtp.163.com
+    port: 25
+    username: xshhope@163.com
+    password: 1597984XXX
+  rabbitmq:
+    host: 47.107.161.86
+    port: 5672
+    username: donate-dev
+    password: donate-dev
+    virtual-host: /
+  redis:
+    host: 47.107.161.86
+    port: 6379
+    password:
+    timeout: 10s
+    lettuce:
+      pool:
+        min-idle: 0
+        max-idle: 8
+        max-active: 8
+        max-wait: -1ms
+  mvc:
+    servlet:
+      load-on-startup: 1
+  aop:
+    proxy-target-class: true
+  zipkin:
+    base-url: http://localhost:9411
+    enabled: true
+    sender:
+      type: web
+  servlet:
+    multipart:
+      max-file-size: 10MB
+  http:
+    multipart:
+      max-request-size: 100MB
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://127.0.0.1:8080/api-o/user-me
+      prefer-token-info: false
+ribbon:
+  eager-load:
+    enabled: true
+    clients: user-apply
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+custom:
+  MaxFileSize: 10
+  MaxRequestSize: 100
+  accessTokenExpireTime: 300
+  encryptJWTKey: U0JBUElKV1RkV2FuZzkyNjQ1NA==
+
+  email:
+    sender: xshhope@163.com
+    receiver: xsharh@gmail.com
+
+  token:
+    admin:
+      expire: 14 #天
+
+  server:
+    url: http://127.0.0.1:8000
+
+  ip:
+    expire: 2 #分钟
+
+  qrnum: 5
+
+  my:
+    token: 123456
+    encryptAESKey: V2FuZzkyNjQ1NGRTQkFQSUpXVA==
+
+    privateKey: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9Kh4m8b2fOkJntGcoyE5SZvoJG/urKIHzoonUGqqneOxkA7fdXDjyZd9NBBjK2TzVm8TGV7WqXXuFRtlU4l/DH3Dh8sssnrgL/mqYXexJ/A5iMzZ8C4jkQYeTjg6VQM5n/NiI1acNPtpOG1ObUExLzKSGbIiCH+ErFF0Xq5WWK1Jv7PSiWG81qfBwLT832TqPapbDzbDhpNHwrP6mrIgP+aYwIQwGSHGhf+lJ5Un8Tt6p3wXM8f03Ru1Ro94AsR3/+fVHP6WTm8HmD9yeWWzPC3TjWvbGK+jWjrVp08YDld52If0tsSU+7RFfiHUL9Imx5IuMwsrzKsNb6t4v+/BvAgMBAAECggEAFrutC/kZVL1npZbknt4Tq4t8mQOn5xXjKChsb/UUdTPvFMXtnsiqf1cG0vafFCGvUex6ZWu9BVBeu9Gb5Lufzo9EvaK0EBSzAZ39qXoAH5QPFnYZIicwuF23sV/tGLrFE3Irg6ZJgSoAikp2bb/kq2dYjl8UuK6kHM1BssqIG5e8FI2r70N3Mivf2zbXVEFkTCaN8NUp+/A01d7jkVpshP4452conrxx6Yrb7Un0lq2insPiF5HSa39XKYrbligRE1wUj+exUAZ82GkaTgAzq0L6zYrAc2wsKwvyvaeX/9W17EQzgutoaIIEg1ejyMr2dtwjIckHyWIme7nEhV0JoQKBgQDzJE82AlK5qYkqPyeb8b8zK9cvT/6lGL8K/fvi9B/tnJjw8L39eJyp3N8Xl6wK3HPT9DBAYOkKrGvTbaqfVfNEV/9Jx5QBAtRsomUiak+bPiHA6O9z9eZYXZgNVPx2y/zeDDdzXXYpT70fex6shFnfoBJbgyvP2zQx+D5wPWk0cwKBgQDHKw4xI1twdMFoOFhf9I8GTHhsSGmsMA73gZZoh1HGi3iy/Al5wR9XwqckYY2QwN9KRi2jYDTT8iknYicafWCnfSql6JWhdE/SHWEM7A73ByQDRUIZ81sHuMwVX0OO8XbAHzfnlT0WEfPYPCsk9NuQ6tyndX9EV/9pzcIBBeURFQKBgHKVSPMV8zBl8itDqgH20nlmDrnQRBw/5kBi42LYU3eiFf1uJsseHQ579XLj2oMf00Iu0NJ2GT0bdpEkHIWMduFdawS1Fk3HrJ4phenLGgr6I+QKolYOq2g3a2HVDElb5qYqMbOfdwEO//ynBBSfJs+ZWy1fSrVhA18NMzen6T17AoGAXqc9pWiySi2SxR8SEPg/CLVK/dskLWrhkgsKGj9FQ+CAyj8xmaWIacLegFHEX6jp9XiIs/5C3P9XQ5pIDzTKvI6luBdjFUobrTW9K9D8A7ZnDQ7bLU4UUwUmKHoPt11WHFQ501t/nn+FrZxavMOJncOgfg0/IJHZlsTskGPmy0kCgYEAjiNsHXNMKivSPPiqnQxd/bcH4GUr3jCWedFADi8armlv4k4BAQWDQqtRPcanR+AA18FK89ud3VTBGvbuGAQ1EUG5a7lI2ajQigkkjUR74xg2sGGR/eBZA/stnuZXuOEpvPJWw4MBN+MVGz3p0snAAXV3DJHfgeWyP7xc2ilZKkA=
+    publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlGmDcL009+EOzkxPgANqlpWtkCx1vv93NNZMzOD7wylo6mJnnoTEIzcpGB23R0Xdhjg1OmVwaaFRzEMXNWBBjAC2RhJOFe3pwY69qq9GH7bhKpw5il13vBrre93hSt9OOZ6b5j9RCyuB9Zt7GSjXORvKRrVYAUhx7zFfPZWY4x3Alusv0Ng/xv2+luNUAEgfC+957OCALUC7VrEcZ5HufFaFyNVbicLsqkRU1c0B35CGaesNsFC15hVI6JEh1p8XmIJE4x5FHrY6nMFlR3jgctKtUR9uXnuwr9lI2AB5YAmz/TGtExhSSNsuUa2NrjR3eqripI5P2C2Faw+BG8wgyQIDAQAB
+    appId: 2019052465404201
